@@ -10,9 +10,7 @@ class WeatherApp:
         self.root.title("OASIS INFOBYTE WEATHER APPLICATION")
         self.root.geometry("400x400")
 
-        self.api_key = (
-            "enter_your_api_key_here"  # Replace with your OpenWeatherMap API key
-        )
+        self.api_key = "enter_your_api_key_here"  # Replace with your OpenWeatherMap API key
         self.base_url = "https://api.openweathermap.org/data/2.5/weather"
 
         self.temperature_units = ["metric", "imperial"]
